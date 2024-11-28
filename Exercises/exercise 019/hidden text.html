@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            
+        }
+
+        h1{
+            text-align: center;
+        }
+
+        p{
+            text-align: center;
+        }
+
+        div{
+            text-align: center;
+        }
+
+        div > p{
+            display: none;
+        }
+
+        div:hover > p{
+            
+            text-align: center;
+            display: block;
+            color: brown;
+            background-color: aqua;
+            
+
+        }
+    </style>
+</head>
+<body>
+    <h1>Hidden text</h1>
+    <h1>Pass them mouse bellow</h1>
+    <div>
+        Pass the mouse here
+        <p><a href="index.html">hidden text</a></p>
+    </div>
+    <p>end of the text</p>
+    <p><a href="index.html">Back to page 001</a></p>
+</body>
+</html>

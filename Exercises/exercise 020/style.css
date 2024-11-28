@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+body{
+    background-color: black;
+}
+
+h1{
+    color: white;
+    text-align: center;
+}
+
+h2{
+    color: white;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:visited{
+    color: blue;
+}
+
+a:hover{
+    color: violet;
+}
+
+a:active{
+    color: cadetblue;
+}
+
+a::after{
+    content: 'Link';
+    color: chocolate;
+}
+
+.gay{
+    background-color: crimson;
+}
+
+p{
+    text-align: center;
+}

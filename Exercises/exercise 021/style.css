@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+
+h1{
+    background-color: yellowgreen;
+    height: 300px;
+    width: 300px;
+    border: 10px solid darkblue;
+    margin: 10px auto 30px auto;
+    padding: 10px;
+    
+}
+
+h1:hover{
+    background-color: black;
+    color: white;
+    border: 10px solid darkgray;
+}
+
+a{
+    background-color: black;
+    color: white;
+    border: 10px solid darkgray;
+    padding: 10px 20px 10px 20px;
+
+}
